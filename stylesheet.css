@@ -1,0 +1,26 @@
+/*Tooltip styling*/
+#tooltip {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: solid;
+    border-color: black;
+    pointer-events: none;
+}
+
+#tooltip.hidden {
+    display: none;
+}
+
+#tooltip p {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.title {
+    text-align:center;
+}

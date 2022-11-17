@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <!-- Meta Tag -->
+    <meta charset="utf-8">
+    <title>assignment 7</title>
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <!-- D3.js Source -->
+    <script type= "text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+  
+  </head>
+  <body>
+    <h1 style = "text-align:center; color:steelblue"><bold>Montana Population Density, 2022</bold></h1>
+   
+    <script type="text/javascript" src="backend.js"></script>
+
+    <button id="dc">Density Color</button>
+    <button id="tcb">Toggle County Boundary</button>
+
+    <div id="tooltip" class="hidden">
+        <b><p class="title"></p></b>
+            <p>Population Density:  <span id="population"></span></p>
+    </div>
+
+    <h4>
+        Yash Bhedaru<br>
+        Instructor: Suresh Lodha<br>
+        CSE163: Data programming for Visualization<br>
+        Fall 2022
+    </h4>
+
+    <h4>Sources: </h4>
+    <ul>
+      <li>https://bl.ocks.org/mbostock/5562380</li>
+      <li>https://www.sohamkamani.com/javascript/d3-geo-projections/</li>
+      <li>https://bl.ocks.org/mbostock/3711652</li>
+      <li>The sources from the pdf given in canvas</li>
+    </ul>
+      
+      
+  </body>
+</html>
